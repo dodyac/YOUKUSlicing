@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="sliderStyle">
+        <item name="sliderAnimationDuration">600</item>
+        <item name="sliderAutoCycleDirection">right</item>
+        <item name="sliderAutoCycleEnabled">true</item>
+        <item name="sliderIndicatorAnimationDuration">600</item>
+        <item name="sliderIndicatorGravity">center_horizontal|bottom</item>
+        <item name="sliderIndicatorOrientation">horizontal</item>
+        <item name="sliderIndicatorPadding">1dp</item>
+        <item name="sliderIndicatorRadius">1.2dp</item>
+        <item name="sliderIndicatorSelectedColor">@color/white</item>
+        <item name="sliderIndicatorUnselectedColor">@color/default_color</item>
+        <item name="sliderStartAutoCycle">true</item>
+    </style>
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+</resources>

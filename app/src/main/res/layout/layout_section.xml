@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/x16dp"
+        android:layout_marginTop="@dimen/x8dp"
+        android:layout_marginEnd="@dimen/x16dp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_large"
+        android:textStyle="bold" />
+
+    <com.acxdev.shimmer.widget.ShimmerRecycler
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="@dimen/x8dp"
+        android:clipToPadding="false"
+        android:paddingStart="@dimen/x16dp"
+        android:paddingEnd="@dimen/x16dp"
+        app:layout_manager="grid"
+        app:shimmerRecyclerLayout="@layout/row_section"
+        tools:itemCount="2"
+        app:shimmerRecyclerCount="2"
+        tools:listitem="@layout/row_section" />
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="@dimen/x14dp"
+        android:layout_height="@dimen/x14dp"
+        android:layout_alignTop="@id/name"
+        android:layout_alignBottom="@id/name"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/x16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_arrow_right"
+        android:visibility="gone"
+        app:tint="@color/default_color" />
+</RelativeLayout>

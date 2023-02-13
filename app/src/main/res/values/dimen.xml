@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="populerHeight">100dp</dimen>
+    <dimen name="top10Width">180dp</dimen>
+    <dimen name="top10Height">230dp</dimen>
+    <dimen name="hBirthdayWidth">140dp</dimen>
+    <dimen name="hBirthdayHeight">90dp</dimen>
+    <dimen name="actionWidth">120dp</dimen>
+    <dimen name="actionHeight">150dp</dimen>
+</resources>
